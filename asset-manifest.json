@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ipl-gradesheet/static/css/main.bbcf8962.chunk.css",
+    "main.js": "/ipl-gradesheet/static/js/main.18e486b9.chunk.js",
+    "main.js.map": "/ipl-gradesheet/static/js/main.18e486b9.chunk.js.map",
+    "runtime-main.js": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js",
+    "runtime-main.js.map": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js.map",
+    "static/css/2.42836a8c.chunk.css": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css",
+    "static/js/2.d03140b4.chunk.js": "/ipl-gradesheet/static/js/2.d03140b4.chunk.js",
+    "static/js/2.d03140b4.chunk.js.map": "/ipl-gradesheet/static/js/2.d03140b4.chunk.js.map",
+    "index.html": "/ipl-gradesheet/index.html",
+    "precache-manifest.1d23602b662395a12425e93095e20c48.js": "/ipl-gradesheet/precache-manifest.1d23602b662395a12425e93095e20c48.js",
+    "service-worker.js": "/ipl-gradesheet/service-worker.js",
+    "static/css/2.42836a8c.chunk.css.map": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css.map",
+    "static/css/main.bbcf8962.chunk.css.map": "/ipl-gradesheet/static/css/main.bbcf8962.chunk.css.map",
+    "static/js/2.d03140b4.chunk.js.LICENSE.txt": "/ipl-gradesheet/static/js/2.d03140b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d612c6b.js",
+    "static/css/2.42836a8c.chunk.css",
+    "static/js/2.d03140b4.chunk.js",
+    "static/css/main.bbcf8962.chunk.css",
+    "static/js/main.18e486b9.chunk.js"
+  ]
+}
