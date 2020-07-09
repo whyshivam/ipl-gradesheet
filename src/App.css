@@ -7,7 +7,7 @@ button.navbar-toggler{
 .jumbotron{
   background-position: center;
   min-height: 30vw;
-  background-image: url("./shared/images/ipl.jpg");
+  background-image: url("./shared/images/ipl.png");
 }
 .jumbo{
   padding:auto;
@@ -19,7 +19,8 @@ div.jumbo-head {
   text-align: center;
   height: 100%;
   vertical-align: middle;
-  color: aliceblue;
+  color: #000000;
+  font-weight: 700;
   
 }
 div.key ,div.value,h1.team-header{
