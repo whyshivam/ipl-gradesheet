@@ -20,23 +20,23 @@ class Header extends Component{
                
                 <Navbar color="light" light expand="md" className="header" >
                 <div className="container">
-                    <NavbarBrand href="/ipl-gradesheet/">IPL Grade</NavbarBrand>
+                    <NavbarBrand href="/ipl-gradesheet/">IPL gradesheet</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav}/>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar >
                         <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#win">
-                                    Winning Grade
+                                    Winning gradesheet
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#team">
-                                    Team Grade
+                                    Team gradesheet
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#season">
-                                    Season Grade
+                                    Season gradesheet
                                 </NavLink>
                             </NavItem>
                             
