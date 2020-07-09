@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ipl-Grade/static/css/main.b372fab5.chunk.css",
-    "main.js": "/ipl-Grade/static/js/main.3ee85048.chunk.js",
-    "main.js.map": "/ipl-Grade/static/js/main.3ee85048.chunk.js.map",
-    "runtime-main.js": "/ipl-Grade/static/js/runtime-main.41b4f980.js",
-    "runtime-main.js.map": "/ipl-Grade/static/js/runtime-main.41b4f980.js.map",
-    "static/css/2.42836a8c.chunk.css": "/ipl-Grade/static/css/2.42836a8c.chunk.css",
-    "static/js/2.ec0ba579.chunk.js": "/ipl-Grade/static/js/2.ec0ba579.chunk.js",
-    "static/js/2.ec0ba579.chunk.js.map": "/ipl-Grade/static/js/2.ec0ba579.chunk.js.map",
-    "index.html": "/ipl-Grade/index.html",
-    "precache-manifest.9bda756b527cdfa0c3c932f839217c7b.js": "/ipl-Grade/precache-manifest.9bda756b527cdfa0c3c932f839217c7b.js",
-    "service-worker.js": "/ipl-Grade/service-worker.js",
-    "static/css/2.42836a8c.chunk.css.map": "/ipl-Grade/static/css/2.42836a8c.chunk.css.map",
-    "static/css/main.b372fab5.chunk.css.map": "/ipl-Grade/static/css/main.b372fab5.chunk.css.map",
-    "static/js/2.ec0ba579.chunk.js.LICENSE.txt": "/ipl-Grade/static/js/2.ec0ba579.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ipl-Grade/static/media/ipl.853cb9ae.jpg"
+    "main.css": "/ipl-gradesheet/static/css/main.0470dd21.chunk.css",
+    "main.js": "/ipl-gradesheet/static/js/main.0eb2cd03.chunk.js",
+    "main.js.map": "/ipl-gradesheet/static/js/main.0eb2cd03.chunk.js.map",
+    "runtime-main.js": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js",
+    "runtime-main.js.map": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js.map",
+    "static/css/2.42836a8c.chunk.css": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css",
+    "static/js/2.b63da88c.chunk.js": "/ipl-gradesheet/static/js/2.b63da88c.chunk.js",
+    "static/js/2.b63da88c.chunk.js.map": "/ipl-gradesheet/static/js/2.b63da88c.chunk.js.map",
+    "index.html": "/ipl-gradesheet/index.html",
+    "precache-manifest.d461afd643b7101f5fe29335df653910.js": "/ipl-gradesheet/precache-manifest.d461afd643b7101f5fe29335df653910.js",
+    "service-worker.js": "/ipl-gradesheet/service-worker.js",
+    "static/css/2.42836a8c.chunk.css.map": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css.map",
+    "static/css/main.0470dd21.chunk.css.map": "/ipl-gradesheet/static/css/main.0470dd21.chunk.css.map",
+    "static/js/2.b63da88c.chunk.js.LICENSE.txt": "/ipl-gradesheet/static/js/2.b63da88c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ipl-gradesheet/static/media/ipl.853cb9ae.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.41b4f980.js",
+    "static/js/runtime-main.0d612c6b.js",
     "static/css/2.42836a8c.chunk.css",
-    "static/js/2.ec0ba579.chunk.js",
-    "static/css/main.b372fab5.chunk.css",
-    "static/js/main.3ee85048.chunk.js"
+    "static/js/2.b63da88c.chunk.js",
+    "static/css/main.0470dd21.chunk.css",
+    "static/js/main.0eb2cd03.chunk.js"
   ]
 }
