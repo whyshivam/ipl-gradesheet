@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, NavItem, Navbar, NavbarBrand, Collapse, NavbarToggler, Jumbotron } from 'reactstrap';
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 class Header extends Component {
     constructor(props) {
         super(props);

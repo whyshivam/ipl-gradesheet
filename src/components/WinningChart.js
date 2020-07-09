@@ -3,7 +3,7 @@ import {Bar} from 'react-chartjs-2';
 const teamnames=["MI","CSK","KKR","DD","SRH","KXIP","RR","RCB","DC","KTK","PW","RPS","GL"];
 
 function fnS(i) {
-  if (i == 0) {
+  if (i === 0) {
       return ("All Seasons Combines");
   }
   else {

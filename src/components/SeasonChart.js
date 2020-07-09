@@ -3,7 +3,7 @@ import {Line} from 'react-chartjs-2';
 const teamnames=["Mumbai Indians","Chennai Super Kings","Kolkata Knight Riders","Delhi Capitals","Sunrisers Hyderabad","Kings XI Punjab","Rajasthan Royals","Royal Challengers Bangalore","Deccan Chargers","Kochi Tuskers Kerala","Pune Warriors","Rising Pune Supergiants","Gujarat Lions"];
 
 function fnS(i) {
-    if (i == 0) {
+    if (i === 0) {
         return ("Overall");
     }
     else {
@@ -49,7 +49,7 @@ function RenderLine(val) {
 
 function Season(props) {
     const tdata=[];
-    const title=[];
+    
     
     for(var i=0;i<13;i++){
         const data=[];

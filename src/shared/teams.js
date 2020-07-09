@@ -30,7 +30,6 @@ function IPL(seasons){
     return(ipl);
 }
 const ipl=IPL(seasons);
-const teams=Teams(teamnames);
 
 function TeamIndex(name){
     for(var i=0;i<teamnames.length;i++)
@@ -46,9 +45,9 @@ function TeamIndex(name){
 }
 function SeasonIndex(year){
     for(var i=0;i<seasons.length;i++){
-        if(year==seasons[i])
+        if(year===seasons[i])
         return (i);
-        if(i==seasons.length-1){
+        if(i===seasons.length-1){
             console.log("Edited data?");
             return(0);
         }
