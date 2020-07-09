@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Nav, NavItem,NavLink,Navbar,NavbarBrand, Collapse, NavbarToggler, Jumbotron} from 'reactstrap';
+import {Link , animateScroll as scroll} from 'react-scroll'
 class Header extends Component{
     constructor(props){
         super(props);
@@ -20,23 +21,23 @@ class Header extends Component{
                
                 <Navbar color="light" light expand="md" className="header" >
                 <div className="container">
-                    <NavbarBrand href="/ipl-gradesheet/">IPL gradesheet</NavbarBrand>
+                    <NavbarBrand href="/ipl-gradesheet/">IPL Grade</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav}/>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar >
                         <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#win">
-                                    Winning gradesheet
+                                    Winning Grade
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#team">
-                                    Team gradesheet
+                                    Team Grade
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" href="/ipl-gradesheet/#season">
-                                    Season gradesheet
+                                    Season Grade
                                 </NavLink>
                             </NavItem>
                             
