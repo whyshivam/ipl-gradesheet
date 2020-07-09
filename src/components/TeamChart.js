@@ -11,14 +11,21 @@ function Average(total, part) {
 function RenderTeam(props) {
     const winp = Average(props.team.match, props.team.win);
     return (
-        <div className="no-gap team container col-12" id={"team" + props.team.tId}>
-            <div className="row col-12">
-                <h1 className="col-md-10 col-sm-9 team-header">{props.team.tname}</h1>
-                <div className="col-md-2 col-sm-3 circular">
+        <div className="no-gap team container col-12" id={"team" + props.team.tId}  >
+            <div className="row col-12 ">
+                <div className="no-gap row header-container">
+                <span className="circular" style={{ width: "50px" }}>
                     <CircularProgressbar value={winp} maxValue={100} minValue={0} strokeWidth={5} styles={buildStyles({
-                        strokeLinecap: "butt"
+                        strokeLinecap: "butt",pathColor: `#030346d5`,
+                        textColor: '#030346d5'
                     })} text={`${winp}%`} />
+                </span>
+                <span className="team-header">
+                <h1>{props.team.tname}</h1>
+
+                </span>
                 </div>
+                
             </div>
             <div className="row col-12 box-content">
                 <div className="col-md-2 col-sm-3 col-6  key ">Macthes</div>

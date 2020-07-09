@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Nav, NavItem,NavLink,Navbar,NavbarBrand, Collapse, NavbarToggler} from 'reactstrap';
+import {Nav, NavItem,NavLink,Navbar,NavbarBrand, Collapse, NavbarToggler, Jumbotron} from 'reactstrap';
 class Header extends Component{
     constructor(props){
         super(props);
@@ -45,8 +45,15 @@ class Header extends Component{
                     </Collapse>
                     </div>
                 </Navbar>
-                
-                
+                <Jumbotron fluid>
+                    <div  className="container jumbo">
+                        <div className=" jumbo-head col-12">
+                            <span>
+                            <h1 className="display-3">Indian Premiere League</h1>
+                            </span>
+                        </div>
+                    </div>
+                </Jumbotron>
             </React.Fragment>
         );
     }

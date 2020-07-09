@@ -20,8 +20,8 @@ function RenderLine(val) {
         datasets: [
           {
             label: (val.value.label),
-            backgroundColor: '#007bff',
-            borderColor: 'rgba(0,0,0,0.5)',
+            backgroundColor: '#030346d5',
+            borderColor: '#030346d5',
             borderWidth: 1,
             data: val.value.data
           }
@@ -72,7 +72,7 @@ function Season(props) {
         };
         ind++;
         return(
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6 graph" >
               <RenderLine value={val}/>
             </div>
         );

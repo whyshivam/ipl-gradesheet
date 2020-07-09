@@ -16,7 +16,7 @@ function RenderBar(val) {
         datasets: [
           {
             label: (val.value.label),
-            backgroundColor: '#007bff',
+            backgroundColor: '#030346d5',
             borderColor: 'rgba(0,0,0,0.5)',
             borderWidth: 1,
             data: val.value.data
@@ -35,7 +35,15 @@ function RenderBar(val) {
               },
               legend:{
                 display:false
+              },
+              plugins:{
+                deferred: {
+                  xOffset : 150,
+                  yOffset: '80%',
+                  delay: 800
+                }
               }
+              
             }}
           />
         </div>

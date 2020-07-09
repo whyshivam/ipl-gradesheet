@@ -2,7 +2,10 @@ import React, {useState, Component } from 'react';
 import ipl from '../shared/teams';
 import Teams from './TeamChart';
 import Winning from './WinningChart';
-import Season from './SeasonChart'
+import Season from './SeasonChart';
+import 'chartjs-plugin-deferred';
+
+
 import { Button,ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 const teamnames=["Mumbai Indians","Chennai Super Kings","Kolkata Knight Riders","Delhi Capitals","Sunrisers Hyderabad","Kings XI Punjab","Rajasthan Royals","Royal Challengers Bangalore","Deccan Chargers","Kochi Tuskers Kerala","Pune Warriors","Rising Pune Supergiants","Gujarat Lions"];
 
