@@ -1,0 +1,38 @@
+.content-header{
+  padding-left: auto;
+}
+.jumbotron{
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dream11.com%2Fgames%2Ffantasy-cricket%2Findian-premier-league%2F&psig=AOvVaw2n4KO_Zo_uwbUv6W-alO_e&ust=1594307156602000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjeipj3veoCFQAAAAAdAAAAABAI);
+  background-position: center;
+}
+div.key ,div.value,h1.team-header{
+ vertical-align: centers;
+  padding: 0px;
+}
+
+h1.team-header{
+  height: 100%;
+  vertical-align: center;
+}
+div.key{
+  font-weight: 500;
+}
+h1.page-header{
+  padding: 10px;
+  font-size: 3em;
+  font-weight:200;
+}
+
+div.team{
+  margin-top: 50px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 1px;
+  border-color:rgba(0,0,0,0.8) ;
+  padding:20px;
+}
+.page-header{
+  margin-top: 30px;
+}
+
+
