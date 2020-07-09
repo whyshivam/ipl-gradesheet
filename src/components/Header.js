@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Nav, NavItem,NavLink,Navbar,NavbarBrand, Collapse, NavbarToggler, Jumbotron} from 'reactstrap';
+import {Nav, NavItem,NavLink,Navbar,NavbarBrand, Collapse, NavbarToggler} from 'reactstrap';
 class Header extends Component{
     constructor(props){
         super(props);
@@ -18,25 +18,25 @@ class Header extends Component{
         return(
             <React.Fragment>
                
-                <Navbar color="light" light expand="md" className="header" fixed='top'>
+                <Navbar color="light" light expand="md" className="header" >
                 <div className="container">
-                    <NavbarBrand href="/">IPL STATS</NavbarBrand>
+                    <NavbarBrand href="/ipl-Grade/">IPL Grade</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav}/>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar >
                         <NavItem>
-                                <NavLink className="nav-link" href="/#win">
-                                    Winning Stats
+                                <NavLink className="nav-link" href="/ipl-Grade/#win">
+                                    Winning Grade
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="/#team">
-                                    Team Stats
+                                <NavLink className="nav-link" href="/ipl-Grade/#team">
+                                    Team Grade
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="/#season">
-                                    Season Stats
+                                <NavLink className="nav-link" href="/ipl-Grade/#season">
+                                    Season Grade
                                 </NavLink>
                             </NavItem>
                             
@@ -46,15 +46,12 @@ class Header extends Component{
                     </div>
                 </Navbar>
                 
-                <Jumbotron fluid  >
-                    <div className="container">
-                    <h1 className="display-4">Indian Premier League</h1>
-
-                    </div>
-                </Jumbotron>
+                
             </React.Fragment>
         );
     }
 } 
 
 export default Header;
+
+//<h1 className="jumbo-head display-4">Indian Premier League</h1>

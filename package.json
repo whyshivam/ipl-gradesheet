@@ -1,6 +1,6 @@
 {
-  "homepage": "http://whyshivam.github.io/ipl-gradesheet",
-  "name": "ipl-gradesheet",
+  "homepage": "http://whyshivam.github.io/ipl-Grade",
+  "name": "ipl-Grade",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

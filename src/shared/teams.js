@@ -101,6 +101,7 @@ matches.map((match)=> {
 
     if(match.toss_winner===t1){
         ipl[sId][tId1].toss++;
+        
         if(match.toss_decision==="bat")
         ipl[sId][tId1].batfirst++;
         else

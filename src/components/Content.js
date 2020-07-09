@@ -58,11 +58,11 @@ class Content extends Component {
 
         return (
             <div className="container page">
-                <h1 className="page-header" id="win">Winning Stats</h1>
+                <h1 className="page-header" id="win">Winning Grade</h1>
                 <Winning ipl={ipl} />
-                <h1 className="page-header" id="team">Team Stats</h1>
+                <h1 className="page-header" id="team">Team Grade</h1>
                 <Teams teams={ipl} />
-                <h1 className="page-header" id="season">Season Stats</h1>
+                <h1 className="page-header" id="season">Season Grade</h1>
                 <Season ipl={ipl} />
                 
             </div>

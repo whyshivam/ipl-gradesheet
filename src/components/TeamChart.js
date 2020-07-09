@@ -13,8 +13,8 @@ function RenderTeam(props) {
     return (
         <div className="no-gap team container col-12" id={"team" + props.team.tId}>
             <div className="row col-12">
-                <h1 className="col-10 team-header">{props.team.tname}</h1>
-                <div className="col-2 circular">
+                <h1 className="col-md-10 col-sm-9 team-header">{props.team.tname}</h1>
+                <div className="col-md-2 col-sm-3 circular">
                     <CircularProgressbar value={winp} maxValue={100} minValue={0} strokeWidth={5} styles={buildStyles({
                         strokeLinecap: "butt"
                     })} text={`${winp}%`} />
@@ -37,6 +37,8 @@ function RenderTeam(props) {
                 <div className="col-md-2 col-sm-3 col-6 value">{props.team.tie}</div>
                 <div className="col-md-2 col-sm-3 col-6  key">Suppa Winner</div>
                 <div className="col-md-2 col-sm-3 col-6 value">{props.team.winsup}</div>
+                
+                
             </div>
         </div>
     );

@@ -66,18 +66,9 @@ function Winning(props) {
       return(
         <div></div>
       )
-      else if(ind==1)
-      {
-        return(
-          <div className="col-12">
-              <RenderBar value={val}/>
-          </div>
-            
-        );
-      }
       else{
         return(
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-6 graph">
               <RenderBar value={val}/>
           </div>
             

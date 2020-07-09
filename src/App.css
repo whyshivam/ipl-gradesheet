@@ -1,18 +1,49 @@
 .content-header{
   padding-left: auto;
 }
+button.navbar-toggler{
+  border-color: transparent !important;
+}
 .jumbotron{
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dream11.com%2Fgames%2Ffantasy-cricket%2Findian-premier-league%2F&psig=AOvVaw2n4KO_Zo_uwbUv6W-alO_e&ust=1594307156602000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjeipj3veoCFQAAAAAdAAAAABAI);
   background-position: center;
+  min-height: 30vw;
+  background-image: url("./shared/images/ipl.jpg");
+}
+.jumbo{
+  padding:auto;
+  height: 100%;
+  width: 100%;
+}
+div.jumbo-head {
+  text-align: center;
+  height: 100%;
+  vertical-align: middle;
 }
 div.key ,div.value,h1.team-header{
  vertical-align: centers;
   padding: 0px;
 }
-
+.value{
+  font-size: 1.3em;
+  color: rgba(4, 82, 39, 0.863)
+}
+.App{
+  background-color: rgba(0,0,0,0.1);
+}
+.container.page{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding-bottom: 30px;
+}
+div.page{
+  background-color: aliceblue;
+}
+.content-header{
+  color: #000022;
+}
 h1.team-header{
   height: 100%;
-  vertical-align: center;
+  font-size: 1.5em;
 }
 div.key{
   font-weight: 500;
@@ -22,6 +53,11 @@ h1.page-header{
   font-size: 3em;
   font-weight:200;
 }
+.jumbotron{
+  background-color:rgba(0,0,0,0);
+  border:1px solid ;
+  border-color: rgba(0,0,0,0.1);
+}
 
 div.team{
   margin-top: 50px;
@@ -30,9 +66,12 @@ div.team{
   border-radius: 1px;
   border-color:rgba(0,0,0,0.8) ;
   padding:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
 }
-.page-header{
-  margin-top: 30px;
+h1.page-header{
+  padding-top:30px;
 }
 
 
