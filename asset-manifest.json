@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ipl-gradesheet/static/css/main.0470dd21.chunk.css",
-    "main.js": "/ipl-gradesheet/static/js/main.21f63c27.chunk.js",
-    "main.js.map": "/ipl-gradesheet/static/js/main.21f63c27.chunk.js.map",
+    "main.css": "/ipl-gradesheet/static/css/main.cf23bd81.chunk.css",
+    "main.js": "/ipl-gradesheet/static/js/main.0b802cf3.chunk.js",
+    "main.js.map": "/ipl-gradesheet/static/js/main.0b802cf3.chunk.js.map",
     "runtime-main.js": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js",
     "runtime-main.js.map": "/ipl-gradesheet/static/js/runtime-main.0d612c6b.js.map",
     "static/css/2.42836a8c.chunk.css": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css",
-    "static/js/2.f2122cd1.chunk.js": "/ipl-gradesheet/static/js/2.f2122cd1.chunk.js",
-    "static/js/2.f2122cd1.chunk.js.map": "/ipl-gradesheet/static/js/2.f2122cd1.chunk.js.map",
+    "static/js/2.1c35364d.chunk.js": "/ipl-gradesheet/static/js/2.1c35364d.chunk.js",
+    "static/js/2.1c35364d.chunk.js.map": "/ipl-gradesheet/static/js/2.1c35364d.chunk.js.map",
     "index.html": "/ipl-gradesheet/index.html",
-    "precache-manifest.523beed353d26faacbdd32c77f116879.js": "/ipl-gradesheet/precache-manifest.523beed353d26faacbdd32c77f116879.js",
+    "precache-manifest.fff6952d4d1415788611d88a40bdc830.js": "/ipl-gradesheet/precache-manifest.fff6952d4d1415788611d88a40bdc830.js",
     "service-worker.js": "/ipl-gradesheet/service-worker.js",
     "static/css/2.42836a8c.chunk.css.map": "/ipl-gradesheet/static/css/2.42836a8c.chunk.css.map",
-    "static/css/main.0470dd21.chunk.css.map": "/ipl-gradesheet/static/css/main.0470dd21.chunk.css.map",
-    "static/js/2.f2122cd1.chunk.js.LICENSE.txt": "/ipl-gradesheet/static/js/2.f2122cd1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ipl-gradesheet/static/media/ipl.853cb9ae.jpg"
+    "static/css/main.cf23bd81.chunk.css.map": "/ipl-gradesheet/static/css/main.cf23bd81.chunk.css.map",
+    "static/js/2.1c35364d.chunk.js.LICENSE.txt": "/ipl-gradesheet/static/js/2.1c35364d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ipl-gradesheet/static/media/ipl.53bf9007.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d612c6b.js",
     "static/css/2.42836a8c.chunk.css",
-    "static/js/2.f2122cd1.chunk.js",
-    "static/css/main.0470dd21.chunk.css",
-    "static/js/main.21f63c27.chunk.js"
+    "static/js/2.1c35364d.chunk.js",
+    "static/css/main.cf23bd81.chunk.css",
+    "static/js/main.0b802cf3.chunk.js"
   ]
 }
